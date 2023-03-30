@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+} 
+a:hover{
+    color: rgb(74, 70, 65);
+}
+body {
+    background-color: rgb(231, 74, 205);
+}
+#PP {
+    color: white;
+}
+
+.Home_Container .Navigation img {
+    margin-top: 15px;
+    margin-left: 60px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;  
+    
+}
+.Home_Container .Navigation .Menu  {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+}
+.Home_Container .Navigation .Menu a {
+    text-decoration:  none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-right: 10px;
+    color: white;
+    
+}
+.Home_Container .Navigation .Menu a:hover {
+    color: rgb(104, 101, 101);    
+}
+.Conteudo  {
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+}
+#FLEX {
+    width: 100%;
+    display: flex;
+}
+
+.Conteudo .Img_Box img {
+    margin-left: 10%;
+    width: 90%;
+    margin-bottom: 50px;
+}
+.Conteudo .Txt_Box {
+    margin-top: 50px;
+    font-size: 19px;
+    width: 80%;
+}
+
+.Conteudo .Txt_Box .Btn {
+    cursor: pointer;
+    background-color: rgb(224, 35, 107);
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: transparent; 
+    font-size: 15px;
+    color: white;
+    margin-bottom: 60px;
+}
+.Conteudo .Txt_Box button:hover {
+    background-color: rgba(225, 34, 101, 0.815);;
+}
+.Conteudo .Img_Box img {
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 50px;
+}
+#P_H {
+    color: black;
+}
+@media(max-width: 528px){
+    #Logo {
+        margin-left: 10px;
+    }
+    #Txt_Box{
+        font-size: 15px;
+    }
+    
+    #Footer {
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(128, 9, 110);
+    }
+    #Footer a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #Social_midias p {
+        font-size: 19px;
+        margin-bottom: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Horarios {
+        justify-content: center;
+    }
+    #Horarios p  {
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+    #Dev p {
+        font-size: 19px;
+        margin-bottom: 40px
+    }
+}
+@media(max-width: 600px){
+    #Logo {
+        margin-left: 10px;
+    }
+    .Conteudo{
+        display: inline;
+    }
+
+    .Conteudo .Img_Box img {
+        margin-top: 50px;
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    #Footer {
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(128, 9, 110);
+    }
+    #Footer a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #Social_midias p {
+        font-size: 19px;
+        margin-bottom: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Horarios {
+        justify-content: center;
+    }
+    #Horarios p  {
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+    #Dev p {
+        font-size: 19px;
+        margin-bottom: 40px
+    }
+}
+@media(max-width: 768px){
+    #Logo {
+        margin-left: 10px;
+    }
+    .Conteudo{
+        display: inline;
+    }
+
+    .Conteudo .Img_Box img {
+        margin-top: 50px;
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    
+    .Home_Container .Navigation .Menu {
+        margin-top: 35px;
+        margin-right: 30px;
+    }
+    .Home_Container .Navigation .Menu a {
+        margin-right: 1px;
+        font-size: 25px;
+    }
+    
+    .Conteudo .Txt_Box {
+        font-size: 19px;
+        width: 80%;
+    }
+    #Footer {
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(128, 9, 110);
+    }
+    #Footer a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #Social_midias p {
+        font-size: 19px;
+        margin-bottom: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Horarios {
+        justify-content: center;
+    }
+    #Horarios p  {
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+    #Dev p {
+        font-size: 19px;
+        margin-bottom: 40px
+    }
+}
+@media(min-width: 769px){
+    #Logo {
+        margin-left: 10px;
+    }
+    .Conteudo{
+        display: flex;
+    }
+
+    .Conteudo .Img_Box img {
+        margin-top: 50px;
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    
+    .Home_Container .Navigation .Menu {
+        margin-top: 35px;
+        margin-right: 30px;
+    }
+    .Home_Container .Navigation .Menu a {
+        margin-right: 1px;
+        font-size: 25px;
+    }
+    .Conteudo .Txt_Box {
+        font-size: 19px;
+        width: 80%;
+    }
+    #Footer {
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(128, 9, 110);
+        display: flex;
+    }
+    #Footer a {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    #Social_midias{
+        margin-top: 60px;
+        margin-right: 50px;
+    }
+    #Social_midias p {
+        font-size: 19px;
+        margin-bottom: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Horarios {
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+    }
+    #Horarios p  {
+        color: white;
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+    #Dev{
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    #Dev p {
+        font-size: 19px;
+        margin-bottom: 40px
+    }    
+
+}
+@media(min-width: 993px){
+    #Footer {
+        text-align: center;
+        justify-content: center;
+        background-color: rgb(128, 9, 110);
+        display: flex;
+    }
+    #Footer a {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    #Social_midias{
+        margin-top: 60px;
+        margin-right: 50px;
+    }
+    #Social_midias p {
+        font-size: 19px;
+        margin-bottom: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Horarios {
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: center;
+    }
+    #Horarios p  {
+        color: white;
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+    #Dev{
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    #Dev p {
+        font-size: 19px;
+        margin-bottom: 40px
+    }
+
+}
+

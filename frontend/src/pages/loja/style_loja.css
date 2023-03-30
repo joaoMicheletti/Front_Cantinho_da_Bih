@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ #Pedido_number {
+    color: red;
+ }
+ #Estoque_alert {
+    color: red;
+    text-align: center;
+ }
+ #D{
+    margin-top: 40px;
+ }
+ h3 {
+    margin-top: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+ }
+ .Loja_Container .Cabeçalho{
+    width: 100%;
+ }
+ .Loja_Container .Cabeçalho .Logo {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+ }
+ .Loja_Container .Cabeçalho .Menu {
+    margin-top: 50px;
+    float: right;
+    margin-right: 5px;
+}
+.Loja_Container .Cabeçalho .Menu a { 
+    margin-right: 20px;
+    font-size: 25px;
+}
+.Conteudo_Prop {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+.Propaganda {
+   display: flex;
+   height: auto;
+   margin-bottom: 50px;
+}
+.Img_Propaganda {
+    margin-left: 10px;
+}
+.Txt_Propaganda {
+    margin-left: 10px;
+    color: white;
+}
+
+
+.Itens_Loja {
+    background-color: transparent;
+    margin-top: 30px;
+    height: auto;
+    max-width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ul {
+    text-align: center;
+    width: 280px;
+    background-color: rgba(0, 0, 0, 0.37);
+    margin-bottom: 30px;
+ 
+}
+li {
+    list-style: none;
+    color: white;
+}
+ul li img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+#Quantidade {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.Loja_btn button {
+    color: rgb(245, 11, 147);
+    font-weight: 500;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+
+}
+.Loja_btn button:hover {
+    background-color: rgba(0, 0, 0, 0.37);
+}
+.pedido{
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}.pedido label {
+    margin-right: 25px;
+}.pedido p {
+    margin-right: 25px;
+}.pedido button {
+    width: 90px;
+    background-color: rgb(209, 17, 91);
+    color: white;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+#Exit_Container {
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+#Button_Container {
+    justify-content: center;
+    margin-top: 60px;
+    width: 80%;
+    margin-left: 10%;
+}
+#BTN_Exit {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(209, 17, 91);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#BTN_Exit:hover {
+    background-color: rgba(0, 0, 0, 0.37);
+
+}
+#Carrinho_Container {
+    margin-top: 80px;
+}
+#Pedidos_hoje {
+    margin-top: 60px;
+    width: 80%;
+    margin-left: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#Carrinho_Pedido {
+    margin-right: 5px;
+
+}
+#BTN_Carrinho {
+    width: 80px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+#Pedidos_finalizados {
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 12%;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media(max-width: 350px){
+    .Conteudo_Prop {
+        margin-top: 160px;
+    }
+    .Img_Propaganda {
+        display: none;
+    }
+    .Txt_Propaganda{
+        display: none;
+    }
+}
+@media(max-width: 768px) {
+    .Conteudo_Prop {
+        margin-top: 160px;
+    }
+    .Img_Propaganda {
+        display: none;
+    }
+    .Txt_Propaganda {
+        display: none;
+    }
+}
+
+#Confirm_Header  {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+#Confirm_Header img {
+    margin-top: 30px;
+    width: 100px;
+    border-radius: 50%;
+}
+#Form_Confirm_Container {
+    margin-top: 40px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+#Pedido_Confirm {
+    background-color: blueviolet;
+    width: 80%;
+    margin-left: 10%;
+}
+#Pedido_Confirm ul {
+    width: 100%;
+    color: white;
+}
+#Pedido_Confirm ul img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+#Pedido_Confirm form input {
+    width: 80%;
+    height: 35px;
+    margin-bottom: 30px;
+}
+#Exemplo {
+    color: rgb(245, 6, 6);
+}
+#Buttons button {
+    cursor: pointer;
+    width: 60%;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+}
+#Confirmar {
+    background-color: rgba(81, 243, 81, 0.842);
+}
+#Cancelar {
+    background-color: rgb(224, 49, 49);
+}
+#Confirmar_Pedido{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(252, 253, 253);
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
+}
+@media(max-width: 768px) {
+    #Buttons button {
+        font-size: 10px;
+    }
+
+}
+
+#IMG_Frete {
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 150px;
+}
+#regiao {
+    text-align: center;
+}
+#Options {
+    height: auto;
+    max-width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#City {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(138, 29, 240, 0.582);
+    width: 200px;
+}
+#City img {
+    width: 100px;
+    border-radius: 50%;    
+}
